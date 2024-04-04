@@ -48,7 +48,7 @@ mongoose
 //api
 
 app.get("/", (req, res) => {
-  return res.send("Todo Server is running");
+  return res.render("registerPage");
 });
 
 app.get("/register", (req, res) => {
